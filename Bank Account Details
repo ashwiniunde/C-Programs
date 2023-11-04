@@ -1,17 +1,13 @@
-// Online C++ compiler to run C++ program online
 #include<iostream>
-
 using namespace std;
 class bank
 {
 char name[20];
 int accno; 
-//int withdraw:
 int bal;
 char acctype [20]; 
-//int deposite;
  public:
- void accinfo()
+ void accinfo()  //function to enter information
  {
 cout<<"\nEnter name:";
 cin>>name;
@@ -22,7 +18,7 @@ cout<<"\n Enter account type: ";
  cout<<"\n Enter balance amount:"; 
  cin>>bal;
 } 
- void adeposite()
+ void adeposite() //function to deposit amount
 {
 int deposite; 
 cout<<"\nEnter deposite ammount:";
@@ -30,7 +26,7 @@ cin>>deposite;
 bal=bal+deposite;
 cout<<"\nToatl balance in account is "<<bal;
 }
-void awithdraw()
+void awithdraw() //function to withdraw amount
  {
 int withdraw; 
 cout<<"\nEnter withdraw amount:";
@@ -38,7 +34,7 @@ cin>>withdraw;
 bal=bal-withdraw;
  cout<<"\nTotal balance amount is; "<<bal;
 }
-void display()
+void display() //function to display all information
 {
 cout<<"\n Your name is: "<<name;
  cout<<"\n Your account number is: "<<accno;
@@ -77,6 +73,5 @@ case 5 :
 return 0;
 }
 }
-//cout<<"Do you want to continue (1/0)";
 while(1);
 }
