@@ -1,6 +1,6 @@
-/* Program to display area of rectangle, triangle and circle using Pure Virtual Fuction  in C++ */
+/* Program to display area of rectangle, triangle and circle area using Pure Virtual Fuction  in C++ */
 
-
+//Calculate Area Using Pure Virtual function
 #include<iostream>
 using namespace std ;
 class shape
